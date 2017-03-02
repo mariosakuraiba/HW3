@@ -5,6 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Calculation Results</title>
+        <link rel="stylesheet" href="results.css" type="text/css">
     </head>
     
     <%
