@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="results.css" type="text/css">
     </head>
     
-    <%
+   <%--  <%
       int totalHour = Integer.parseInt(request.getParameter("workTime"));
       int hourRate = Integer.parseInt(request.getParameter("workPay"));
       int preDe = Integer.parseInt(request.getParameter("PreDe"));
@@ -44,22 +44,20 @@
               postPay = prePay - taxAmt;
               netPay = postPay - postDe;
               }
-            }
-
-
+            
     %>
-    
+   --%>
     <body>
         <h1>Salary Info</h1>
         <table border="1">
             <tbody>
                 <tr>
                     <td>Total Hours Worked:</td>
-                    <td><%= totalHour %></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Hourly Rate:</td>
-                    <td><%= hourRate %></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>#Hours Overtime:</td>
@@ -75,7 +73,7 @@
                 </tr>
                 <tr>
                     <td>Pre-tax Deduct:</td>
-                    <td><%= preDe %></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Pre-tax Pay:</td>
@@ -91,7 +89,7 @@
                 </tr>
                 <tr>
                     <td>Post-tax Deduct:</td>
-                    <td><%= postDe %></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Net Pay:</td>

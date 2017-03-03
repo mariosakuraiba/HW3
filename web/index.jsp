@@ -8,9 +8,10 @@
         <title>Simple Salary Calculator</title>
     </head>
     <body>
+        <div class ="centerDiv">
         <h1>Simple Salary Calculator</h1>
         <form name="demoForm" action="results.jsp" method="post">
-         <table>
+         <table align="center">
                 <tbody>
                     <tr>
                         <td>Hours Worked:</td><td><input type="text" name="workTime" value="" size="50" required></td>
@@ -26,8 +27,9 @@
                     </tr>
                 </tbody>
             </table>
-            <input type="reset" value="Clear" id="clear">
+            <input type="reset" value="Clear" id="clear" align="center">
             <input type="submit" value="Submit" id="submit">
         </form>
+        </div>
     </body>
 </html>
