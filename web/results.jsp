@@ -17,7 +17,7 @@
       if(overHour <0)
           overHour =0;
       double overRate = overHour * 1.5;
-        double grossPay = totalHour* hourRate + overRate * overHour;
+        double grossPay = 40* hourRate + overRate * overHour;
         double prePay = grossPay - preDe;
         double taxAmt = 0.22 * prePay;
         if (grossPay <=500)
@@ -28,6 +28,7 @@
     <body>
         <div class ="centerDiv">
         <h1>Salary Info</h1>
+        <hr>
         <table border="1" align="center">
             <tbody>
                 <tr>
