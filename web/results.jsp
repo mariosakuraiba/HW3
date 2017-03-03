@@ -77,7 +77,7 @@
                 </tr>
             </tbody>
         </table>
-        <a href="http://localhost:8084/SalaryCalculator/">Go Back</a>
+        <a href="http://s17-msci3300-10.azurewebsites.net/HW3/WebApplication1/web/index.jsp">Go Back</a>
         </div>
     </body>
 </html>
