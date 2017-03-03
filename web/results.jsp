@@ -28,7 +28,7 @@
     <body>
         <div class ="centerDiv">
         <h1>Salary Info</h1>
-        <table border="1" align="center" bgcolo:white>
+        <table border="1" align="center">
             <tbody>
                 <tr>
                     <td>Total Hours Worked:</td>
@@ -78,5 +78,5 @@
         </table>
         <a href="http://localhost:8084/SalaryCalculator/">Go Back</a>
         </div>
-        </body>
+    </body>
 </html>
